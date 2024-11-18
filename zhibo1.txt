@@ -1335,9 +1335,8 @@ bang派,https://live.metshop.top/huya/11336719
 龙广音乐广播 FM95.8[0*0],http://ls.qingting.fm/live/4969.m3u8
 龙广音乐广播 FM95.8[0*0],http://ls.qingting.fm/live/4969.m3u8
 
-
 聚合,#genre#
-
+#EXTM3U
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/哔哩哔哩.png" group-title="•游戏「赛事」",「B站」热门赛事
 http://dns.yiandrive.com:16813/bilibili/10
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/哔哩哔哩.png" group-title="•游戏「赛事」",「B站」CS 2
