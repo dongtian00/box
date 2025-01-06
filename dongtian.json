@@ -84,15 +84,7 @@
       "api": "./lib/lib/drpy2.min.js",
       "ext": "./lib/guazi.js"
     },
-    {
-      "key": "雨滴",
-      "name": "冬天┃雨滴",
-      "type": 3,
-      "api": "csp_Xdai",
-      "playerType": 1,
-      "jar":"./lib/fix241114.jar;md5;9bb70df776325973562070580f4a29f6",
-      "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOA"
-    },
+
  {
       "key": "柠檬",
       "name": "冬天┃柠檬",
