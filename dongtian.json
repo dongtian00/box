@@ -1,7 +1,7 @@
 {
   "spider": "./xmbjm.jar",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "logo": "https://4708.kstore.space/logo.gif",
+  "logo": "https://gitea.moe/dongtian/520/raw/branch/main/logo.gif",
 
 
 "lives":[
@@ -17,23 +17,46 @@
 
 
   "sites": [
-  
-  {
-      "key": "lf_js_search",
+
+    
+   {
+      "key": "豆瓣",
       "name": "冬天┃影视",
       "type": 3,
+      "api": "csp_Douban",
+      "jar": "./jar/o2.jar",
+      "searchable": 0
+    }, 
+    {
+      "key": "alllive",
+      "name": "冬天┃直播",
+      "type": 3,
+      "api": "csp_Alllive",
+      "playerType": 2,
       "searchable": 0,
-      "changeable": 1,
       "quickSearch": 0,
-      "filterable": 0,
-      "api": "./lib/lf_search3_min.js"
+      "changeable": 0
     },
-  
-  
-  
+
+    {
+      "key": "多多影音",
+      "name": "冬天┃多多",
+      "type": 3,
+      "api": "csp_DDwo",
+      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://tv.yydsys.top",
+          "https://tv.yydsys.cc"
+        ]
+      }
+    },
+
 {
       "key": "guoguo",
-      "name": "冬天┃主线",
+      "name": "冬天┃果果",
       "type": 3,
       "api": "http://154.9.252.167:666/tvbox/js/drpy_libs/drpy2.min.js",
       "searchable": 1,
@@ -44,15 +67,77 @@
       "ext": "https://gitee.com/smallmi1007/mimi/raw/master/guoguo.js"
     },
     {
-            "key": "油管",
-            "name": "冬天┃油管",
-            "type": 4,
-            "api": "http://zhangqun1818.serv00.net/yt/yt001.php",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "动作片#谍战剧playlist#沙雕穿越#中国动漫#有声穿越小说#影视解说#百家讲坛playlist#动物#风光#放松#4K#HDR#movie#喜来乐#documentary#bbc documentary"
-        },
+        "key": "csp_瓜子",
+          "name": "冬天┃小米",
+          "api": "csp_Gz360",
+          "jar": "./jar/xm.jar",
+          "type": 3,
+          "searchable": 1,
+          "playerType": 2,
+          "timeout": 30,
+          "changeable": 0
+       },
     {
+      "key": "瓜子app",
+      "name": "冬天┃瓜子",
+      "type": 3,
+      "api": "./lib/lib/drpy2.min.js",
+      "ext": "./lib/guazi.js"
+    },
+    {
+      "key": "雨滴",
+      "name": "冬天┃雨滴",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 1,
+      "jar":"./lib/fix241114.jar;md5;9bb70df776325973562070580f4a29f6",
+      "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOA"
+    },
+ {
+      "key": "柠檬",
+      "name": "冬天┃柠檬",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 2,
+      "jar":"./lib/fix241030.jar",
+      "ext": "eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
+    },
+
+{
+      "key": "ZXZJ",
+      "name": "冬天┃在线",
+      "api": "csp_Zxzj",
+      "type": 3,
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "playerType": 2,
+      "jar":"./lib/fix241030.jar",
+      "ext": ""
+    },
+
+    {
+      "key": "芒果",
+      "name": "冬天┃芒果",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/芒果.js"
+    },
+    {
+      "key": "优酷",
+      "name": "冬天┃优酷",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/优酷.js"
+    },
+    {
+      "key": "企鹅",
+      "name": "冬天┃企鹅",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/腾讯VIP.js"
+    },
+   {
       "key": "虎牙",
       "name": "冬天┃虎牙",
       "type": 3,
@@ -101,45 +186,92 @@
       "filterable": 1,
       "ext": "./lib/blzb.js"
     },
-  
+
     {
-      "key": "4K在线看",
-      "name": "冬天┃4K",
+      "key": "天天",
+      "name": "冬天┃天下",
       "type": 3,
-      "api": "csp_XYQHiker",
+      "api": "csp_TTian",
+      "playerType": 1,
+      "ext": "baHR0cDovL29wLnlzZHFqcy5jbg==",
+      "jar": "./lib/qj.jar;md5;1c2663a32f99e9e488cb4777ba1ea73f"
+    },
+    {
+      "key": "天天弹幕版",
+      "name": "冬天┃天天",
+      "type": 3,
+      "api": "csp_TianTian",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/4kav.json"
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "文才",
+      "name": "冬天┃文才",
+      "type": 3,
+      "api": "csp_Jpys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "nangua",
+      "name": "冬天┃西瓜",
+      "type": 3,
+      "playerType": "2",
+      "api": "./lib/ng_open.js"
+    },
+    {
+      "key": "南瓜弹幕版",
+      "name": "冬天┃南瓜",
+      "type": 3,
+      "api": "csp_Nangua",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "厂长弹幕版",
+      "name": "冬天┃厂长",
+      "type": 3,
+      "api": "csp_Czzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "金牌影视",
+      "name": "冬天┃金牌",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/金牌影视.js"
     },
 
     {
-        "key": "csp_瓜子",
-          "name": "冬天┃瓜子",
-          "api": "csp_Gz360",
-          "jar": "./jar/xm.jar",
-          "type": 3,
-          "searchable": 1,
-          "playerType": 2,
-          "timeout": 30,
-          "changeable": 0
-       },
-    {
-      "key": "木偶网盘",
-      "name": "冬天┃木偶",
+      "key": "星辰",
+      "name": "冬天┃星辰",
       "type": 3,
-      "api": "csp_Wobg",
+      "api": "csp_XBPQ",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
-        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
-        "site": "https://mogg.top",
-        "danmu": true
-      },
-      "timeout": 25
+      "ext": "./lib/xcys.json"
     },
 
    {
@@ -212,113 +344,152 @@
         "爽文短剧"
       ]
     }, 
-
     {
-      "key": "子子影视",
-      "name": "冬天┃子子",
+			"key": "HDmoli",
+			"name": "冬天┃HD",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./js/HDmoli.js"
+		},
+   
+
+  {
+      "key": "酷影视",
+      "name": "冬天┃酷看",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.tvkuys.xyz/api.php/app/"
+    },
+	
+  {
+      "key": "白嫖者",
+      "name": "冬天┃白嫖",
       "type": 3,
       "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/子子.json"
+      "ext": {
+        "分类url": "https://www.qyzf88.com/qyvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
+        "副标题": "class=\"pic-text text-right\"&&</span>",
+        "简介": "+剧情介绍：&&</p >"
+      }
     },
-		{
-      "key": "4k剧院",
-      "name": "冬天┃剧院",
+        {
+            "key": "文采影视", 
+            "name": "冬天┃文采", 
+            "type": 3, 
+            "api": "csp_XBPQ", 
+            "changeable": 0,
+            "ext": {
+                "主页url": "https://www.hkybqufgh.com/", 
+                "简介": "</label>&&</div>", 
+                "嗅探词":"m3u8",
+                "影片类型": "tags\">&&director\">", 
+                "影片状态": "bottom\">&&</div>", 
+                "二次截取": "videoList\":\\[&&\\]", 
+                "数组": "{&&}[不包含:伦理剧]", 
+                "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",", 
+                "标题": "vodName\":\"&&\"", 
+                "副标题": "vodRemarks\":\"&&\"", 
+                "链接": "https://www.hkybqufgh.com/detail/+vodId\":&&,", 
+                "导演": "导演:</div>&&主演", 
+                "主演": "主演:</div>&&别名", 
+                "线路标题": "冬天专线", 
+                "播放数组": "listitem\">&&info\">", 
+                "播放列表": "<a&&</a>", 
+                "倒序": "否", 
+                "搜索url": "https://www.hkybqufgh.com/vod/search/{wd}", 
+                "搜索副标题":"class=\"boottom\"*<div>&&</div",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4", 
+                "分类url": "https://www.hkybqufgh.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
+            }
+        }, 
+
+        {
+            "key": "雨见视频",
+            "name": "冬天┃雨见",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "影片类型": "类型：&&</li>",
+                "简介": "+简介：&&</div>",
+                "分类url": "http://yjsp.mxys8.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$27"
+            }
+        }, 
+        {
+            "key": "没事影院",
+            "name": "冬天┃事事",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类url": "https://www.yu992.com/lys/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+                "分类": "剧集$juji#电影$dianying#综艺$zongyi#动漫$dongman#短剧$duanju"
+            }
+        },
+  {
+            "key": "奈落",
+            "name": "冬天┃奈落",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "主页url": "",
+                "搜索url": "https://www.newfii.com/vodsearch/{wd}----------{pg}---.html",
+                "播放组数": "module-blocklist&&</div>",
+                "跳转播放链接": "var player_*url\":\"&&\"",
+                "跳转解析": "默认$var Player*url=",
+                "数组": "module-item&&</div>",
+                "线路标题": "<span>&&</span>",
+                "标题": "title=\"&&\"",
+                "图片": "data-src=\"&&\"",
+                "副标题": ">&&</div>",
+                "线路数组": "module-tab-item tab-item&&</div>",
+                "简介": "<span>&&</span>",
+                "链接": "href=\"&&\"",
+                "分类url": "https://www.newfii.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电影$1#剧集$2#综艺$4#动漫$3#记录片$5#B站$39#短剧$53#体育$45",
+                "筛选": ""
+            }
+        },
+
+    {
+      "key": "七新影视",
+      "name": "冬天┃七新",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "csp_XYQHiker",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "order_num": 6,
-      "ext": "./lib/4k剧院.js"
-    },
-      {
-      "key": "zzys",
-      "name": "冬天┃喵影",
-      "type": 3,
-      "api": "http://www.meowtv.cn/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://www.meowtv.cn/js/meow.php?file=zzys"
+      "ext": "./lib/七新影视.json"
     },
 
     {
-		"key": "爱优影视",
-		"name": "冬天┃爱优",
-		"type": 3,
-		"api": "./drpy_libs/drpy2.min.js",
-		"ext": "./lib/爱优影视.js"
-		},
-       {
-		"key": "奇珍异兽",
-		"name": "冬天┃奇珍",
-		"type": 3,
-		"api": "./drpy_libs/drpy2.min.js",
-		"ext": "./lib/奇珍异兽[官].js"
-		},
-    {
-      "key": "爱奇",
-      "name": "冬天┃爱奇",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/爱奇艺.js"
-    },
-    {
-		"key": "优酷",
-		"name": "冬天┃优酷",
-		"type": 3,
-		"api": "./drpy_libs/drpy2.min.js",
-		"ext": "./lib/优酷视频.js"
-		},
-    {
-      "key": "360影视",
-      "name": "冬天┃三六",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/360影视[官].js"
-    },
-    {
-      "key": "农民影视",
+      "key": "csp_Nmys",
       "name": "冬天┃梦想",
       "type": 3,
-      "api": "csp_WexNmys",
-      "jar": "./jar/o.jar",
+      "playerType": "2",
+      "api": "csp_Nmys",
       "searchable": 1,
-      "changeable": 1
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://vip.wwgz.cn/"
     },
     
-    {
-            "key": "黑木耳",
-            "name": "冬天┃黑木",
-            "type": 4,
-            "api": "http://zhangqun1818.serv00.net/225.php",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "金鹰",
-            "name": "冬天┃金鹰",
-            "type": 4,
-            "api": "http://zhangqun1818.serv00.net/jy.php",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "华为",
-            "name": "冬天┃华为",
-            "type": 4,
-            "api": "http://zhangqun1818.serv00.net/hwb.php",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
 
- 
     {
       "key": "木耳",
       "name": "冬天┃木耳",
@@ -382,30 +553,8 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
       }
     },
-   {
-       "key":"文采",
-       "name":"冬天┃文采",
-       "jar": "./jar/wencai.jar",
-       "type":3,
-       "api":"csp_Jpys",
-       "playerType":2,
-       "searchable":1,
-       "quickSearch":1,
-       "changeable":1
-       },
-    {
-      "key": "厂长弹幕版",
-      "name": "冬天┃厂长",
-      "type": 3,
-      "api": "csp_Czzy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
+
+
     {
     "key":"海兔影院",
     "name":"冬天┃海菟",
@@ -420,6 +569,19 @@
      "分类":"电视剧$2#电影$1#综艺$3#动漫$4#伦理片$21"
        }
     },
+    
+     {
+      "key": "高清在线",
+      "name": "冬天┃高清",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "剧情介绍: +stui-pannel_bd\">&&</div>",
+        "线路数组": "stui-pannel__head bottom-line active clearfix\">&&</div>",
+        "分类url": "https://www.gxfiber.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+        "分类": "短剧$duanju#电视剧$dsj#电影$dy#动漫$dm#综艺$zy"
+      }
+    },
       
     {
       "key": "热播之家",
@@ -432,9 +594,7 @@
       "ext": "./lib/rebozj.json"
     },
 
-
-
-{
+   {
       "key": "圣城影视",
       "name": "冬天┃圣城",
       "type": 3,
@@ -531,49 +691,38 @@
                 "播放请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 13；； V2230A Build/TP1A.220624.014；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.8 Mobile Safari/537.36&&Referer@https://www.hkybqufgh.com/}"
             }
         },
-    {
-			"key": "hipy_js_HDmoli",
-			"name": "冬天┃魔力",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./js/HDmoli.js"
-		}, 
 
 {
-      "key": "韩圈",
-      "name": "冬天┃韩剧",
-      "type": 3,
-      "api": "csp_HanXiaoQuan",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10
-    },
-{
- "key":"xbpq_韩迷TV",
- "name":"冬天┃韩蜜",
- "type":3,
- "api":"csp_XBPQ",
- "searchable":1,
- "quickSearch":1,
- "filterable":1,
- "ext":"./0930/xbpq_韩迷TV.json"
+       "key":"xbpq_韩迷TV",
+       "name":"冬天┃韩蜜",
+       "type":3,
+       "api":"csp_XBPQ",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":1,
+       "ext":"./0930/xbpq_韩迷TV.json"
   },
     
     {
-    "key":"理理影院",
-    "name":"冬天┃理理",
-    "type":3,
-    "api":"csp_XBPQ",
-    "searchable":1,
-    "quickSearch":1,
-    "filterable":1,
-    "ext":"./0831/理理影院.json"
+         "key":"理理影院",
+         "name":"冬天┃理理",
+         "type":3,
+         "api":"csp_XBPQ",
+         "searchable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "ext":"./0831/理理影院.json"
+    },
+    {
+      "key": "hipy_js_采集之王",
+      "name": "冬天┃聚合",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./lib/采集之王.js?type=url&params=../lib/采集静态.json"
     },
     {
       "key": "csp_Mp4Mov",
@@ -583,36 +732,13 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "push_agent",
-      "name": "切勿相信广告",
-      "type": 3,
-      "api": "csp_PushAgent",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "playerType": 1,
-      "ext": "5538a723e4e44c89862a1376a84b7ce1"
     }
 
   ],
   
   
 "parses": [
-
-      {
-      "name": "聚合1",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "聚合0",
-      "type": 3,
-      "url": "Web"
-    },
-
-{
+	{
             "name": "推荐",
             "type": 1,
             "url": "https://jxjson.icu/neibu.php?url=",
@@ -625,12 +751,16 @@
                     "imgo",
                     "m3u8",
 					"ikm3u8",
+					"ffm3u8",
+					"LTT",
+					"4K",
                     "qiyi",
                     "iqiyi",
                     "爱奇艺",
                     "奇艺",
                     "youku",
                     "优酷",
+                    "土豆",
                     "sohu",
                     "搜狐",
                     "搜狗",
@@ -648,137 +778,9 @@
                 }
             }
         },
-        {
-            "name": "推荐2",
-            "type": 1,
-            "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
-        },
-        {
-            "name": "线路1",
-            "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-                }
-            }
-        },
-
-	{
-			"name": "冰豆",
-			"url": "https://bd.jx.cn/?url=",
-			"type": 0,
-			"ext": {
-				"flag": [
-					"qiyi",
-					"iqiyi",
-					"imgo",
-					"m3u8",
-					"ikm3u8",
-					"爱奇艺",
-					"奇艺",
-					"qq",
-					"qq 预告及花絮",
-					"腾讯",
-					"腾 讯",
-					"youku",
-					"优酷",
-					"搜狗",
-					"pptv",
-					"PPTV",
-					"letv",
-					"乐视",
-					"leshi",
-					"mgtv",
-					"芒果",
-					"sohu",
-					"xigua",
-					"fun",
-					"风行"
-				]
-			},
-			"header": {
-				"User-Agent": "Mozilla/5.0"
-			}
-		},
-		{
-			"name": "虾米",
-			"url": "https://jx.xmflv.com/?url=",
-			"type": 0,
-			"ext": {
-				"flag": [
-					"qiyi",
-					"iqiyi",
-					"imgo",
-					"m3u8",
-					"ikm3u8",
-					"爱奇艺",
-					"奇艺",
-					"qq",
-					"qq 预告及花絮",
-					"腾讯",
-					"腾 讯",
-					"腾 讯",
-					"youku",
-					"优酷",
-					"pptv",
-					"PPTV",
-					"letv",
-					"乐视",
-					"leshi",
-					"mgtv",
-					"芒果",
-					"sohu",
-					"xigua",
-					"fun",
-					"风行"
-				]
-			},
-			"header": {
-				"User-Agent": "Mozilla/5.0"
-			}
-		},
 	
-		{
-			"name": "8090g",
-			"url": "https://www.8090g.cn/?url=",
-			"type": 0,
-			"ext": {
-				"flag": [
-					"qiyi",
-					"iqiyi",
-					"imgo",
-					"m3u8",
-					"ikm3u8",
-					"爱奇艺",
-					"奇艺",
-					"qq",
-					"qq 预告及花絮",
-					"腾讯",
-					"腾 讯",
-					"youku",
-					"优酷",
-					"搜狗",
-					"搜狗",
-					"pptv",
-					"PPTV",
-					"letv",
-					"乐视",
-					"leshi",
-					"mgtv",
-					"芒果",
-					"sohu",
-					"xigua",
-					"fun",
-					"风行"
-				]
-			},
-			"header": {
-				"User-Agent": "Mozilla/5.0"
-			}
-		},
-		{
-			"name": "m3u8",
+	{
+			"name": "线路1",
 			"url": "https://jx.m3u8.tv/jiexi/?url=",
 			"type": 0,
 			"ext": {
@@ -788,6 +790,9 @@
 					"imgo",
 					"m3u8",
 					"ikm3u8",
+					"ffm3u8",
+					"LTT",
+					"4K",
 					"爱奇艺",
 					"奇艺",
 					"qq",
@@ -796,6 +801,143 @@
 					"腾 讯",
 					"youku",
 					"优酷",
+					"土豆",
+					"搜狗",
+					"pptv",
+					"PPTV",
+					"letv",
+					"乐视",
+					"leshi",
+					"mgtv",
+					"芒果",
+					"正片",
+					"sohu",
+					"xigua",
+					"fun",
+					"风行"
+				]
+			},
+			"header": {
+				"User-Agent": "Mozilla/5.0"
+			}
+		},
+	
+
+        {
+			"name": "线路2",
+			"url": "https://bd.jx.cn/?url=",
+			"type": 0,
+			"ext": {
+				"flag": [
+					"qiyi",
+					"iqiyi",
+					"imgo",
+					"m3u8",
+					"ikm3u8",
+					"ffm3u8",
+					"LTT",
+					"4K",
+					"爱奇艺",
+					"奇艺",
+					"qq",
+					"qq 预告及花絮",
+					"腾讯",
+					"腾 讯",
+					"youku",
+					"优酷",
+					"土豆",
+					"搜狗",
+					"pptv",
+					"PPTV",
+					"letv",
+					"乐视",
+					"leshi",
+					"mgtv",
+					"芒果",
+					"sohu",
+					"xigua",
+					"正片",
+					"fun",
+					"风行"
+				]
+			},
+			"header": {
+				"User-Agent": "Mozilla/5.0"
+			}
+		},
+
+		{
+			"name": "线路3",
+			"url": "https://jx.xmflv.com/?url=",
+			"type": 0,
+			"ext": {
+				"flag": [
+					"qiyi",
+					"iqiyi",
+					"imgo",
+					"m3u8",
+					"ikm3u8",
+					"ffm3u8",
+					"LTT",
+					"4K",
+					"爱奇艺",
+					"奇艺",
+					"qq",
+					"qq 预告及花絮",
+					"腾讯",
+					"腾 讯",
+					"腾 讯",
+					"youku",
+					"优酷",
+					"土豆",
+					"pptv",
+					"PPTV",
+					"letv",
+					"乐视",
+					"leshi",
+					"mgtv",
+					"芒果",
+					"sohu",
+					"xigua",
+					"正片",
+					"fun",
+					"风行"
+				]
+			},
+			"header": {
+				"User-Agent": "Mozilla/5.0"
+			}
+		},
+        {
+            "name": "线路4",
+            "type": 1,
+            "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
+        },
+
+	
+		{
+			"name": "线路5",
+			"url": "https://www.8090g.cn/?url=",
+			"type": 0,
+			"ext": {
+				"flag": [
+					"qiyi",
+					"iqiyi",
+					"imgo",
+					"m3u8",
+					"ikm3u8",
+					"ffm3u8",
+					"LTT",
+					"4K",
+					"爱奇艺",
+					"奇艺",
+					"qq",
+					"qq 预告及花絮",
+					"腾讯",
+					"腾 讯",
+					"youku",
+					"优酷",
+					"土豆",
 					"搜狗",
 					"pptv",
 					"PPTV",
@@ -818,7 +960,7 @@
 	
 	
 		{
-			"name": "play",
+			"name": "线路6",
 			"url": "https://www.playm3u8.cn/jiexi.php?url=",
 			"type": 0,
 			"ext": {
@@ -828,6 +970,9 @@
 					"imgo",
 					"m3u8",
 					"ikm3u8",
+					"ffm3u8",
+					"LTT",
+					"4K",
 					"爱奇艺",
 					"奇艺",
 					"qq",
@@ -836,6 +981,7 @@
 					"腾 讯",
 					"youku",
 					"优酷",
+					"土豆",
 					"搜狗",
 					"pptv",
 					"PPTV",
@@ -856,7 +1002,7 @@
 		},
 	
 		{
-			"name": "云析",
+			"name": "线路7",
 			"url": "https://jx.yparse.com/index.php?url=",
 			"type": 0,
 			"ext": {
@@ -866,6 +1012,9 @@
 					"imgo",
 					"m3u8",
 					"ikm3u8",
+					"ffm3u8",
+					"LTT",
+					"4K",
 					"爱奇艺",
 					"奇艺",
 					"qq",
@@ -874,6 +1023,7 @@
 					"腾 讯",
 					"youku",
 					"优酷",
+					"土豆",
 					"搜狗",
 					"pptv",
 					"PPTV",
@@ -894,7 +1044,7 @@
 		},
 		
 	   {
-			"name": "ik9",
+			"name": "线路8",
 			"url": "https://yparse.ik9.cc/index.php?url=",
 			"type": 0,
 			"ext": {
@@ -904,6 +1054,9 @@
 					"imgo",
 					"m3u8",
 					"ikm3u8",
+					"ffm3u8",
+					"LTT",
+					"4K",
 					"爱奇艺",
 					"奇艺",
 					"qq",
@@ -911,6 +1064,7 @@
 					"腾讯",
 					"腾 讯",
 					"youku",
+					"土豆",
 					"优酷",
 					"搜狗",
 					"pptv",
@@ -938,6 +1092,9 @@
 					"imgo",
 					"m3u8",
 					"ikm3u8",
+					"ffm3u8",
+					"LTT",
+					"4K",
 					"爱奇艺",
 					"奇艺",
 					"qq",
@@ -946,6 +1103,7 @@
 					"腾 讯",
 					"youku",
 					"优酷",
+					"土豆",
 					"搜狗",
 					"pptv",
 					"PPTV",
