@@ -1,7 +1,7 @@
 {
   "spider": "./xmbjm.jar",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "logo": "https://gitea.moe/dongtian/520/raw/branch/main/logo.gif",
+  "logo": "./logo.gif",
 
 
 "lives":[
@@ -40,7 +40,7 @@
 
     {
       "key": "多多影音",
-      "name": "冬天┃多多",
+      "name": "多多┃网盘",
       "type": 3,
       "api": "csp_DDwo",
       "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
@@ -53,8 +53,33 @@
         ]
       }
     },
+    {
+      "key": "木偶弹幕",
+      "name": "️木偶┃网盘",
+      "type": 3,
+      "api": "csp_DDwo",
+      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://mogg.top"
+        ]
+      }
+    },
 
-
+{
+      "key": "guoguo",
+      "name": "冬天┃果果",
+      "type": 3,
+      "api": "http://154.9.252.167:666/tvbox/js/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/guoguo.js"
+    },
     {
         "key": "csp_瓜子",
           "name": "冬天┃小米",
@@ -73,7 +98,15 @@
       "api": "./lib/lib/drpy2.min.js",
       "ext": "./lib/guazi.js"
     },
-
+    {
+      "key": "雨滴",
+      "name": "冬天┃雨滴",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 1,
+      "jar":"./lib/fix241114.jar;md5;9bb70df776325973562070580f4a29f6",
+      "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOA"
+    },
  {
       "key": "柠檬",
       "name": "冬天┃柠檬",
@@ -83,7 +116,34 @@
       "jar":"./lib/fix241030.jar",
       "ext": "eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
     },
-
+{
+      "key": "4K影视",
+      "name": "冬天┃K影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/4K影视.json"
+    },
+    {
+      "key": "畅梦",
+      "name": "冬天┃畅梦",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/111tv[自动].js"
+    },
+    	{
+			"key": "hipy_js_流光影院",
+			"name": "冬天┃流光",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./js/流光.js"
+		},
 {
       "key": "ZXZJ",
       "name": "冬天┃在线",
@@ -190,6 +250,19 @@
       },
       "timeout": 10
     },
+        {
+      "key": "小苹果弹幕版",
+      "name": "冬天┃苹果",
+      "type": 3,
+      "api": "csp_Xpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
+    },
     {
       "key": "文才",
       "name": "冬天┃文才",
@@ -242,7 +315,31 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/金牌影视.js"
-    },   
+    },
+    {
+      "key": "csp_xBPQ_奇优",
+      "name": "冬天┃奇优",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/qiyou.json"
+    },
+       {
+            "key": "可可影视",
+            "name": "冬天┃可可",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./1024/可可影视.json",
+            "jar": "./jar/xyqxbpq.jar"
+        },
+
+
+    
     {
       "key": "爱坤",
       "name": "冬天┃爱坤",
@@ -375,8 +472,6 @@
                 "分类": "剧集$juji#电影$dianying#综艺$zongyi#动漫$dongman#短剧$duanju"
             }
         },
-
-
     {
       "key": "七新影视",
       "name": "冬天┃七新",
@@ -386,10 +481,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/七新影视.json"
-    },
-
-
-    
+    },  
 
     {
       "key": "木耳",
@@ -507,7 +599,6 @@
       "ext": "./lib/HDmoli.json"
     },
 
-      
       {
             "key": "新视讯影视",
             "name": "冬天┃视讯",
@@ -537,7 +628,34 @@
             }
         },
         
-
+       {
+            "key": "界影视",
+            "name": "冬天┃界影",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.hkybqufgh.com/",
+                "简介": "</label>&&</div>",
+                "影片类型": "tags\">&&director\">",
+                "影片状态": "bottom\">&&</div>",
+                "二次截取": "videoList\":\\[&&\\]",
+                "数组": "{&&}[不包含:伦理剧]",
+                "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
+                "标题": "vodName\":\"&&\"",
+                "副标题": "vodRemarks\":\"&&\"",
+                "链接": "https://www.hkybqufgh.com/detail/+vodId\":&&,",
+                "导演": "导演:</div>&&主演",
+                "主演": "主演:</div>&&别名",
+                "线路标题": "界影视",
+                "播放数组": "listitem\">&&info\">",
+                "播放列表": "<a&&</a>",
+                "倒序": "否",
+                "搜索url": "https://www.hkybqufgh.com/vod/search/{wd}",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+                "分类url": "https://www.hkybqufgh.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}",
+                "播放请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 13；； V2230A Build/TP1A.220624.014；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.8 Mobile Safari/537.36&&Referer@https://www.hkybqufgh.com/}"
+            }
+        },
 
 {
        "key":"xbpq_韩迷TV",
@@ -585,7 +703,46 @@
   
   
 "parses": [
-
+	{
+            "name": "推荐",
+            "type": 1,
+            "url": "https://jxjson.icu/neibu.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "腾 讯",
+                    "m3u8",
+                    "imgo",
+                    "m3u8",
+					"ikm3u8",
+					"ffm3u8",
+					"LTT",
+					"4K",
+                    "qiyi",
+                    "iqiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "土豆",
+                    "sohu",
+                    "搜狐",
+                    "搜狗",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
 	
 	{
 			"name": "线路1",
