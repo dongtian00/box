@@ -211,7 +211,19 @@
 			"order_num": 0,
 			"ext": "./js/流光.js"
 		},
-
+    {
+      "key": "天天弹幕版",
+      "name": "冬天┃天天",
+      "type": 3,
+      "api": "csp_TianTian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
+    },
 
     {
       "key": "芒果",
@@ -234,25 +246,6 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/腾讯VIP.js"
     },
-
-    {
-            "key": "新视觉py",
-            "name": "冬天┃视觉",
-            "type": 3,
-            "api": "./py/新视觉.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "酷云py",
-            "name": "冬天┃酷云",
-            "type": 3,
-            "api": "./py/酷云.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
         {
       "key": "小苹果弹幕版",
       "name": "冬天┃苹果",
@@ -795,134 +788,7 @@
 				"搜索url": "https://www.xlys01.com/search/{wd}/{pg}"
 			}
 		},
-    {
-    "key":"海兔影院",
-    "name":"冬天┃海菟",
-    "type":3,"api":"csp_XBPQ",
-     "ext":{"发布地址":"https://www.haitu.site/",
-     "简介":"video-info-content vod_content\">&&</span>",
-     "线路数组":"module-tab-item tab-item&&</div>",
-     "线路标题":"<span>&&</span>",
-     "跳转播放链接":"var player_*\"url\":\"&&\"",
-     "搜索数组":"",
-     "搜索url":"https://www.haituu.tv/vodsearch/{wd}-------------.html","分类url":"https://www.haituu.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-------{year}.html[https://www.haituu.tv/vodtype/{cateId}.html]",
-     "分类":"电视剧$2#电影$1#综艺$3#动漫$4#伦理片$21"
-       }
-    },
-    {
-            "key": "既看逍遥",
-            "name": "冬天┃逍遥",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "主页url": "https://www.jkv.app/show/60-----------.html",
-                "数组": "lazyload\"&&</a>",
-                "标题": "title=\"&&\"",
-                "图片": "data-background-image=\"&&\"",
-                "副标题": "xszxj*\">&&</",
-                "链接": "href=\"&&\"",
-                "搜索模式": "1",
-                "搜索url": "https://www.jkv.app/search/{wd}----------{pg}---.html",
-                "分类url": "https://www.jkv.app/show/60-{cateId}-------{catePg}---.html",
-                "分类": "大陆&香港&台湾&韩国&日本&美国&印度&英国&法国&泰国&新加坡&加拿大&西班牙&俄罗斯",
-                "分类值": "*"
-            }
-        },
-        {
-            "key": "哈哈逍遥",
-            "name": "冬天┃哈哈",
-            "type": 3,
-            "jar": "./jar/xyqxbpq.jar",
-            "api": "csp_XBPQ",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://www.hahads.com/show/20-----------.html",
-                "跳转播放链接": "var player_*\"url\":\"&&\"",
-                "分类url": "https://www.hahads.com/show/20-{cateId}-------{catePg}---.html",
-                "分类": "大陆&香港&台湾&美国&法国&英国&日本&韩国&泰国&印度&西班牙&加拿大&俄罗斯&新加坡&其它",
-                "分类值": "*"
-            }
-        },
-        {
-            "key": "八古逍遥",
-            "name": "冬天┃八古",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "图片代理": "0",
-                "主页url": "https://bagu.cc/pianku/lunli-----------.html",
-                "首页": "120",
-                "起始页": "1",
-                "分类url": "https://bagu.cc/pianku/lunli-{cateId}-------{catePg}---.html;;mrcd0",
-                "分类": "中国大陆&中国香港&中国台湾&美国&韩国&日本&泰国&新加坡&马来西亚&印度&英国&法国&加拿大&西班牙&德国&俄罗斯&意大利&菲律宾&其它",
-                "分类值": "*",
-                "二次截取": "hl-vod-list clearfix\">&&text-center cleafix",
-                "数组": "hl-lazy\"&&</li>",
-                "标题": "title=\"&&\"",
-                "图片": "data-original=\"&&\"",
-                "副标题": "remarks\">&&</span>",
-                "链接": "href=\"&&\"",
-                "影片年代": "年份：&&</li>",
-                "影片地区": "地区：&&</li>",
-                "影片类型": "类型：&&</li>",
-                "状态": "状态：&&</li>",
-                "导演": "导演：&&</li>",
-                "主演": "主演：&&</li>",
-                "简介": "+简介：&&</li>",
-                "线路二次截取": "hl-from-buttons\">&&</div>",
-                "线路数组": "hl-icon-laiyuan\">&&</a>",
-                "线路标题": "+>&&</span>",
-                "播放二次截取": "",
-                "播放数组": "id=\"hl-plays-list\">&&</ul>",
-                "播放列表": "<li&&/li>",
-                "播放标题": ">&&</a>",
-                "播放链接": "href=\"&&\"",
-                "嗅探词": ".mp4#.m3u8",
-                "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
-                "跳转解析": "",
-                "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://bagu.cc/Search/{wd}----------{pg}---.html",
-                "搜索模式": "1",
-                "搜索数组": "hl-lazy\"&&</li>",
-                "搜索标题": "title=\"&&\"",
-                "搜索图片": "data-original=\"&&\"",
-                "搜索副标题": "remarks\">&&</span>",
-                "搜索链接": "href=\"&&\""
-            }
-        },
-        {
-            "key": "小贝壳",
-            "name": "冬天┃小呗",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "作者": "x教授",
-                "站名": "小呗影视网",
-                "编码": "UTF-8",
-                "请求头": "User-Agent$Mozilla/5.0 ",
-                "主页url": "http://www.nanxiaoba.com/list6/",
-                "起始页": "1",
-                "数组": "<li class=\"col-&&</a",
-                "图片": "data-original=\"&&\"",
-                "标题": "alt=\"&&\"",
-                "副标题": "+continu\">&&</span>",
-                "链接": "href=\"&&\"",
-                "简介": "❄冬天❄为您介绍剧情+<div id=\"vod-content\">&&</div>",
-                "线路数组": "javascript:;&&/li",
-                "线路标题": "❄百度云❄+>&&<",
-                "播放数组": " <u&&</ul>",
-                "播放标题": "+>&&</a",
-                "分类url": "http://www.nanxiaoba.com/type/6--{cateId}----addtime-{catePg}.html",
-                "分类": "香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大",
-                "分类值": "*"
-            }
-        },
+
     {
       "key": "hipy_js_采集之王",
       "name": "冬天┃聚合",
