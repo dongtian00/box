@@ -7,7 +7,7 @@
       "name": "直播",
       "type": 0,
       "playerType": 1,
-      "url": "http://rihou.cc:567/gggg.nzk",
+      "url": "https://codeberg.org/dongtian/tvbox/raw/branch/520/lib/live.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -22,70 +22,7 @@
       "playerType": 2,
       "ext": "saHR0cDovLzExOC4yNS4xOC4yMTc6NjYzMnxURkxZV1ZKNUVHNVlCMVBMWkxWVk1HVkxCR1JJRENTV3xuajZFNUs0eVlZVDVXNFNjSjNKM3JKMnpyemNKa3BUa3wyMQ=="
     },
-    {
-            "key": "夸克闪电弹幕",
-            "name": "闪电┃4K",
-            "type": 3,
-            "api": "csp_Wobg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://1.95.79.193",
-                "danmu": true
-            }
-        },
-        {
-            "key": "夸克小米弹幕",
-            "name": "小米┃4K",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://ucmi.fun",
-                "danmu": true
-            }
-        },
-        {
-            "key": "夸克下饭弹幕",
-            "name": "下饭┃4K",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://txfyyds.top",
-                "danmu": true
-            }
-        },
-    {
-      "key": "多多影音",
-      "name": "多多┃4K",
-      "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
-      "changeable": 0,
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "https://tv.yydsys.top",
-          "https://tv.yydsys.cc"
-        ]
-      }
-    },
+
     {
          "key": "360zy",
          "name": "冬天┃采集",
@@ -337,9 +274,41 @@
                 "播放请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 13；； V2230A Build/TP1A.220624.014；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.8 Mobile Safari/537.36&&Referer@https://www.hkybqufgh.com/}"
             }
         },
+        {
+      "key": "pgys",
+      "name": "冬天┃苹果",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://m1839732.ca.caoni.ru/6.jar;md5;7949BE328984866E5E47D85228DBAC2A"
+    },
+    {
+      "key": "shys",
+      "name": "冬天┃火火",
+      "type": 3,
+      "api": "csp_SaoHuo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "http://m1839732.ca.caoni.ru/7.jar;md5;D2F2AD718A007B5733ABB5F91AD23533"
+    },
+    {
+      "key": "gzys",
+      "name": "冬天┃瓜子",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "timeout": 30,
+      "jar": "http://m1839732.ca.caoni.ru/7.jar;md5;D2F2AD718A007B5733ABB5F91AD23533"
+    },
     {
       "key": "天天",
-      "name": "天天┃App",
+      "name": "冬天┃天下",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
@@ -347,7 +316,7 @@
     },
     {
       "key": "热播",
-      "name": "热播┃App",
+      "name": "冬天┃热播",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
@@ -355,7 +324,7 @@
     },
     {
       "key": "追剧",
-      "name": "追剧┃App",
+      "name": "冬天┃追剧",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
@@ -363,7 +332,7 @@
     },
     {
       "key": "剧评",
-      "name": "剧评┃App",
+      "name": "冬天┃剧评",
       "type": 3,
       "api": "csp_Jpys",
       "playerType": 1,
@@ -371,7 +340,7 @@
     },
     {
       "key": "图图",
-      "name": "图图┃App",
+      "name": "冬天┃图图",
       "type": 3,
       "api": "csp_APPTT",
       "playerType": 1,
@@ -379,7 +348,7 @@
     },
     {
       "key": "木头",
-      "name": "木头┃App",
+      "name": "冬天┃树木",
       "type": 3,
       "api": "csp_Shark",
       "playerType": 1,
@@ -387,7 +356,7 @@
     },
     {
       "key": "星河",
-      "name": "星河┃App",
+      "name": "冬天┃星河",
       "type": 3,
       "api": "csp_Muou",
       "playerType": 2,
@@ -395,7 +364,7 @@
     },
     {
       "key": "荣荣",
-      "name": "荣荣┃App",
+      "name": "冬天┃荣光",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
@@ -403,7 +372,7 @@
     },
     {
       "key": "雨滴",
-      "name": "雨滴┃App",
+      "name": "冬天┃雨滴",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
@@ -411,7 +380,7 @@
     },
     {
       "key": "现代",
-      "name": "现代┃App",
+      "name": "冬天┃现代",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
@@ -419,7 +388,7 @@
     },
     {
       "key": "玉米",
-      "name": "玉米┃App",
+      "name": "冬天┃玉米",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
@@ -427,7 +396,7 @@
     },
     {
       "key": "优质",
-      "name": "优质┃App",
+      "name": "冬天┃优质",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
@@ -435,7 +404,7 @@
     },
     {
       "key": "客星",
-      "name": "客星┃App",
+      "name": "冬天┃客栈",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
@@ -443,7 +412,7 @@
     },
     {
       "key": "木叶",
-      "name": "木叶┃App",
+      "name": "冬天┃木叶",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
@@ -451,7 +420,7 @@
     },
     {
       "key": "雷电",
-      "name": "雷电┃App",
+      "name": "冬天┃雷电",
       "type": 3,
       "api": "csp_Slys",
       "playerType": 1,
@@ -459,7 +428,7 @@
     },
     {
       "key": "蝴蝶",
-      "name": "蝴蝶┃App",
+      "name": "冬天┃蝴蝶",
       "type": 3,
       "api": "csp_Hudie",
       "playerType": 2,
@@ -467,7 +436,7 @@
     },
     {
       "key": "柠檬",
-      "name": "柠檬┃App",
+      "name": "冬天┃柠檬",
       "type": 3,
       "api": "csp_Nmvod",
       "playerType": 2,
