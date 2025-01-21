@@ -7,7 +7,7 @@
       "name": "直播",
       "type": 0,
       "playerType": 1,
-      "url": "http://meowtv.top/zb",
+      "url": "https://codeberg.org/dongtian/tvbox/raw/branch/520/lib/live.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -15,13 +15,328 @@
   ],
   "sites": [
     {
-      "key": "世纪",
-      "name": "冬天影视",
+      "key": "视觉",
+      "name": "冬天┃影视",
       "type": 3,
       "api": "csp_Drama",
       "playerType": 2,
       "ext": "saHR0cDovLzExOC4yNS4xOC4yMTc6NjYzMnxURkxZV1ZKNUVHNVlCMVBMWkxWVk1HVkxCR1JJRENTV3xuajZFNUs0eVlZVDVXNFNjSjNKM3JKMnpyemNKa3BUa3wyMQ=="
     },
+    {
+            "key": "夸克闪电弹幕",
+            "name": "闪电┃4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "http://1.95.79.193",
+                "danmu": true
+            }
+        },
+        {
+            "key": "夸克小米弹幕",
+            "name": "小米┃4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "http://ucmi.fun",
+                "danmu": true
+            }
+        },
+        {
+            "key": "夸克下饭弹幕",
+            "name": "下饭┃4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "http://txfyyds.top",
+                "danmu": true
+            }
+        },
+    {
+      "key": "多多影音",
+      "name": "多多┃4K",
+      "type": 3,
+      "api": "csp_DDwo",
+      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://tv.yydsys.top",
+          "https://tv.yydsys.cc"
+        ]
+      }
+    },
+    {
+         "key": "360zy",
+         "name": "冬天┃采集",
+         "type": 1,
+         "api": "https://360zy.com/api.php/provide/vod?",
+          "searchable": 1,
+          "changeable": 1,
+          "categories": [
+            "动作片",
+            "喜剧片",
+            "爱情片",
+            "科幻片",
+            "恐怖片",
+            "剧情片",
+            "战争片",
+            "古装片",
+            "悬疑片",
+            "犯罪片",
+            "灾难片",
+            "国产剧",
+            "香港剧",
+            "韩国剧",
+            "欧美剧",
+            "台湾剧",
+            "日本剧",
+            "海外剧",
+            "泰国剧",
+            "大陆综艺",
+            "港台综艺",
+            "日韩综艺",
+            "欧美综艺",
+            "国产动漫",
+            "欧美动漫",
+            "日韩动漫",
+            "现代都市",
+            "脑洞悬疑",
+            "年代穿越",
+            "古装仙侠",
+            "女频恋爱",
+            "成长逆袭",
+            "反转爽剧"
+            ]
+         },
+    {
+      "key": "木耳",
+      "name": "冬天┃木耳",
+      "type": 1,
+      "api": "https://json02.heimuer.xyz/api.php/provide/vod",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "timeout": 20,
+      "categories": [
+        "剧情片",
+        "动作片",
+        "冒险片",
+        "喜剧片",
+        "奇幻片",
+        "恐怖片",
+        "悬疑片",
+        "惊悚片",
+        "灾难片",
+        "爱情片",
+        "犯罪片",
+        "科幻片",
+        "歌舞片",
+        "战争片",
+        "经典片",
+        "动画电影",
+        "网络电影",
+        "其他片",
+        "国产剧",
+        "港剧",
+        "韩剧",
+        "日剧",
+        "泰剧",
+        "台剧",
+        "欧美剧",
+        "新马剧",
+        "其他剧",
+        "国产综艺",
+        "港台综艺",
+        "韩国综艺",
+        "日本综艺",
+        "欧美综艺",
+        "新马泰综艺",
+        "其他综艺",
+        "古装短剧",
+        "虐恋短剧",
+        "逆袭短剧",
+        "神豪短剧",
+        "重生短剧",
+        "复仇短剧",
+        "穿越短剧",
+        "甜宠短剧",
+        "强者短剧",
+        "欧美动漫",
+        "日本动漫",
+        "韩国动漫",
+        "国产动漫",
+        "港台动漫"
+      ],
+      "header": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "key": "zj",
+      "name": "冬天┃八克",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.8q8k.com/vodshow/{cateId}--------{catePg}---.html",
+        "分类": "电影$dy#电视剧$dsj#综艺$zy#动漫$dm"
+      }
+    },
+
+    {
+      "key": "xiaozhen",
+      "name": "冬天┃小正",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "线路数组": "<a data-toggle=\"tab\"&&/a>",
+        "线路标题": ">&&<",
+        "分类url": "http://dyxz.tv/list/{cateId}_{catePg}.html",
+        "分类": "电影$1#电视剧$2#动漫$3#综艺$4"
+      }
+    },
+    {
+      "key": "csp_红狐狸影视",
+      "name": "冬天┃红狐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://honghuli.com/leibiao/{cateId}-{area}-------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+      }
+    },
+    {
+      "key": "酷影视",
+      "name": "冬天┃酷看",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.tvkuys.xyz/api.php/app/"
+    },
+    {
+            "key": "皮虾",
+            "name": "冬天┃虾皮",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "线路标题": "module-tab-value\">&&</span>",
+                "分类url": "http://www.ppxys.vip/s/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
+                "分类": "剧集$1#电影$2#动漫番剧$3"
+            }
+        },
+        {
+            "key": "文采影视", 
+            "name": "冬天┃文采", 
+            "type": 3, 
+            "api": "csp_XBPQ", 
+            "changeable": 0,
+            "ext": {
+                "主页url": "https://www.hkybqufgh.com/", 
+                "简介": "</label>&&</div>", 
+                "嗅探词":"m3u8",
+                "影片类型": "tags\">&&director\">", 
+                "影片状态": "bottom\">&&</div>", 
+                "二次截取": "videoList\":\\[&&\\]", 
+                "数组": "{&&}[不包含:伦理剧]", 
+                "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",", 
+                "标题": "vodName\":\"&&\"", 
+                "副标题": "vodRemarks\":\"&&\"", 
+                "链接": "https://www.hkybqufgh.com/detail/+vodId\":&&,", 
+                "导演": "导演:</div>&&主演", 
+                "主演": "主演:</div>&&别名", 
+                "线路标题": "冬天专线", 
+                "播放数组": "listitem\">&&info\">", 
+                "播放列表": "<a&&</a>", 
+                "倒序": "否", 
+                "搜索url": "https://www.hkybqufgh.com/vod/search/{wd}", 
+                "搜索副标题":"class=\"boottom\"*<div>&&</div",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4", 
+                "分类url": "https://www.hkybqufgh.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
+            }
+        }, 
+
+        {
+            "key": "雨见视频",
+            "name": "冬天┃雨见",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "影片类型": "类型：&&</li>",
+                "简介": "+简介：&&</div>",
+                "分类url": "http://yjsp.mxys8.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$27"
+            }
+        }, 
+        {
+            "key": "没事影院",
+            "name": "冬天┃事事",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类url": "https://www.yu992.com/lys/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+                "分类": "剧集$juji#电影$dianying#综艺$zongyi#动漫$dongman#短剧$duanju"
+            }
+        },
+
+       {
+            "key": "界影视",
+            "name": "冬天┃界影",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.hkybqufgh.com/",
+                "简介": "</label>&&</div>",
+                "影片类型": "tags\">&&director\">",
+                "影片状态": "bottom\">&&</div>",
+                "二次截取": "videoList\":\\[&&\\]",
+                "数组": "{&&}[不包含:伦理剧]",
+                "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
+                "标题": "vodName\":\"&&\"",
+                "副标题": "vodRemarks\":\"&&\"",
+                "链接": "https://www.hkybqufgh.com/detail/+vodId\":&&,",
+                "导演": "导演:</div>&&主演",
+                "主演": "主演:</div>&&别名",
+                "线路标题": "界影视",
+                "播放数组": "listitem\">&&info\">",
+                "播放列表": "<a&&</a>",
+                "倒序": "否",
+                "搜索url": "https://www.hkybqufgh.com/vod/search/{wd}",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+                "分类url": "https://www.hkybqufgh.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}",
+                "播放请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 13；； V2230A Build/TP1A.220624.014；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.8 Mobile Safari/537.36&&Referer@https://www.hkybqufgh.com/}"
+            }
+        },
     {
       "key": "天天",
       "name": "天天┃App",
@@ -160,7 +475,7 @@
     },
     {
       "key": "AI2",
-      "name": "AI2┃仅搜索",
+      "name": "AI2┃搜索",
       "type": 3,
       "api": "csp_AI",
       "searchable": 1,
@@ -171,7 +486,7 @@
     },
     {
       "key": "AI3",
-      "name": "AI3┃仅搜索",
+      "name": "AI3┃搜索",
       "type": 3,
       "api": "csp_AI",
       "searchable": 1,
@@ -193,7 +508,7 @@
     },
     {
       "key": "Dygang",
-      "name": "电影港[边下边播]",
+      "name": "电影┃港湾",
       "type": 3,
       "api": "csp_Dygang"
     },
@@ -220,7 +535,7 @@
     },
     {
       "key": "NoSearch_csp_DiDuan",
-      "name": "低端┃无搜索",
+      "name": "低端┃搜索",
       "type": 3,
       "api": "csp_Ddrk",
       "searchable": 1,
@@ -270,37 +585,8 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "maHR0cHM6Ly93d3cuY3p6eXZpZGVvLmNvbS8="
-    },
-    {
-      "key": "csp_Auete",
-      "name": "Auete┃无搜索",
-      "type": 3,
-      "api": "csp_Auete",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "NoSearch_csp_BBB",
-      "name": "哔哩哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "naHR0cHM6Ly93d3cucWlhb2ppOC5jb20vdHZib3gvYmlsaS5qc29u"
-    },
-    {
-      "key": "push_agent",
-      "name": "推送",
-      "type": 3,
-      "api": "csp_PushAgent",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "6666666666666666"
     }
+
   ],
   "parses": [
     {
@@ -314,7 +600,7 @@
       "url": "Sequence"
     },
     {
-      "name": "巧技",
+      "name": "一线",
       "type": 1,
       "url": "https://zy.qiaoji8.com/neibu.php?url=",
       "ext": {
@@ -343,7 +629,7 @@
       }
     },
     {
-      "name": "巧技二",
+      "name": "二线",
       "type": 1,
       "url": "https://zy.qiaoji8.com/gouzi.php?url=",
       "ext": {
