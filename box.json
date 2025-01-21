@@ -14,7 +14,14 @@
     }
   ],
   "sites": [
-
+{
+      "key": "豆瓣",
+      "name": "冬天┃影视",
+      "type": 3,
+      "api": "https://codeberg.org/dongtian/tvbox/raw/branch/520/lib/drpy2.min.js",
+      "jar": "https://codeberg.org/dongtian/tvbox/src/branch/520/jar/o2.jar",
+      "searchable": 0
+    },
     {
       "key": "视觉",
       "name": "冬天┃影视",
