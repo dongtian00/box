@@ -10,6 +10,7 @@
 
 {"name":"直播②","type":0,"url":"https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt","playerType":1,"ua": "okhttp/3.12.13","logo": "https://live.fanmingming.com/tv/{name}.png"}
 
+
 ],
 
 
@@ -210,21 +211,7 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./js/流光.js"
-		},
-    {
-      "key": "天天弹幕版",
-      "name": "冬天┃天天",
-      "type": 3,
-      "api": "csp_TianTian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
-
+	},
     {
       "key": "芒果",
       "name": "冬天┃芒果",
