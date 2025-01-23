@@ -139,8 +139,8 @@ CCTV15,http://202.100.46.58:9901/tsfile/live/1015_1.m3u8
 CCTV15,http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000346/index.m3u8?IASHttpSessionId=
 CCTV15,http://[2409:8087:74d9:21::6]:80/270000001128/9900000512/index.m3u8
 CCTV15,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010094/1.m3u8
-CCTV16,http://113.57.109.48:1111/tsfile/live/1014_1.m3u8
 CCTV16,http://219.135.180.210:18888/hls/31/index.m3u8
+CCTV16,http://113.57.109.48:1111/tsfile/live/1014_1.m3u8
 CCTV16,https://api.olelive.com/dis/live/CCTV16HD/hls.m3u8
 CCTV16,http://202.100.46.58:9901/tsfile/live/1016_1.m3u8
 CCTV16,http://202.100.46.58:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -352,6 +352,7 @@ CCTV-12,http://124.224.82.220:3011/gaoma/cctv12.m3u8
 CCTV-13,http://124.224.82.220:3011/gaoma/cctv13.m3u8
 CCTV-14,http://124.224.82.220:3011/gaoma/cctv14.m3u8
 CCTV-15,http://124.224.82.220:3011/gaoma/cctv15.m3u8
+CCTV16,http://219.135.180.210:18888/hls/31/index.m3u8
 CCTV-16,http://124.224.82.220:3011/gaoma/cctv16.m3u8
 CCTV-17,http://124.224.82.220:3011/gaoma/cctv17.m3u8
 CCTV-4k,http://124.224.82.220:3011/gaoma/cctv4k.m3u8
