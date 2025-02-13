@@ -298,15 +298,7 @@
       "ext": "./lib/腾讯.js"
     },
 
-        {
-            "key": "酷云py",
-            "name": "冬天┃酷云",
-            "type": 3,
-            "api": "./py/酷云.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
+
         {
       "key": "小苹果弹幕版",
       "name": "冬天┃苹果",
