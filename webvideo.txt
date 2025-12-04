@@ -1,4 +1,4 @@
-央视频道,#genre#,JS=https://gongdian.top/tv/ku9/webview.js
+央视频道,#genre#,JS=https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/webvideo.js
 
 CCTV4K,http://A/ku9/js/webview.js?id=https://www.yangshipin.cn/tv/home?pid=600002264
 CCTV8K,http://A/ku9/js/webview.js?id=https://www.yangshipin.cn/tv/home?pid=600156816
