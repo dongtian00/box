@@ -6,7 +6,7 @@
 {
       "name": "冬天直播",
       "type": 0,
-      "url": "./live.txt",     
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/lib/live.txt",     
       "epg": "https://epg.imxd.top/?ch={name}&date={date}",
       "logo": "https://live.imxd.top/logo/{name}.png",
       "timeout": 10
