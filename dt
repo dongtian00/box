@@ -1,7 +1,9 @@
 {
 "urls":[
 
-{"name":"冬天影视","url":"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/ddd.json"}
+{"name":"冬天影视","url":"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/dongtian00/box/520/dongtian.json"},
+
+{"name":"冬天采集","url":"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/ddd.json"}
 
 ]
 }
