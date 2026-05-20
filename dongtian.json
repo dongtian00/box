@@ -5,12 +5,19 @@
     {
       "name": "国内",
       "type": 0,
-      "url": "https://git.acwing.com/dongtian/520/-/raw/dongtian-main-patch-77433/live.txt",
-      "epg": "http://diyp22.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://diyp22.112114.xyz/logo/{name}.png",
+      "url": "https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/live.m3u",
+      "epg": "https://live.fanmingming.cn/tv/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.cn/tv/logo/{name}.png",
+      "timeout": 10
+    },
+    {
+      "name": "猫TV",
+      "type": 0,
+      "url": "http://rihou.cc:555/gggg.nzk",  
+      "epg": "https://live.fanmingming.cn/tv/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.cn/tv/logo/{name}.png",
       "timeout": 10
     }
-
   ],
   
   "sites": [
