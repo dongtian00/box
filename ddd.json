@@ -2285,7 +2285,8 @@
     "static-mozai.4gtv.tv"
   ],
   "logo": "./logo.gif",
-  
-  "disabled_wallpaper": "https://深色壁纸.xxooo.cf/",
+   
+"wallpaper": "https://深色壁纸.xxooo.cf/",
+
   "notice": ""
 }
