@@ -2,7 +2,7 @@
 
 {
 "name":"冬天直播",
-"url":"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/live.m3u&&&https://codeberg.org/dongtian/tvbox/raw/branch/520/01.png"
+"url":"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/live.m3u&&&https://gh.jasonzeng.dev/https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/dongtian.png"
 },
 
 {
