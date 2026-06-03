@@ -1,6 +1,25 @@
 {
   "spider": "./spider.jar",
-
+  
+  
+ "lives": [ 
+  {
+      "name": "冬天直播",
+      "type": 0,
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/lib/live.txt",     
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "timeout": 10
+    },
+    {
+      "name": "猫TV",
+      "type": 0,
+      "url": "http://rihou.cc:555/gggg.nzk",
+"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "timeout": 10
+    }
+],
   "sites": [
     {
       "key": "drpy_js_豆瓣",
