@@ -7,16 +7,16 @@
       "name": "冬天直播",
       "type": 0,
       "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/live.m3u",     
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "epg": "http://epg.51zmt.top:8000/e1.xml.gz",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/{name}.png",
       "timeout": 10
     },
     {
       "name": "猫TV",
       "type": 0,
       "url": "http://rihou.cc:555/gggg.nzk",
-"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "epg": "http://epg.51zmt.top:8000/e1.xml.gz",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/{name}.png",
       "timeout": 10
     }
 ],
