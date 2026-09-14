@@ -21,13 +21,13 @@
     }
 ],
   "sites": [
-    {
-      "key": "drpy_js_豆瓣",
-      "name": "冬天影视",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
-    },         
+            {
+            "key": "豆瓣",
+            "name": "冬天",
+            "type": 3,
+            "api": "csp_Douban",      
+            "searchable": 0
+        },   
        {
       "key": "短剧",
       "name": "短剧搜搜",
