@@ -23,7 +23,7 @@
   "sites": [
             {
             "key": "豆瓣",
-            "name": "冬天",
+            "name": "冬天影视",
             "type": 3,
             "api": "csp_Douban",      
             "searchable": 0
