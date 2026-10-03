@@ -6,7 +6,7 @@
   {
       "name": "冬天直播",
       "type": 0,
-      "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/live.m3u",     
+      "url": "https://cdn.jsdmirror.com/gh/dongtian00/box@520/lib/live.txt",     
       "epg": "http://epg.51zmt.top:8000/e1.xml.gz",
       "logo": "https://www.xn--rgv465a.top/tvlogo/{name}.png",
       "timeout": 10
