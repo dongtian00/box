@@ -1,5 +1,8 @@
 [
-
+{
+"name":"冬天直播",
+"url":"https://gitlab.hk/dongtian/vip/-/raw/box/live.m3u&&&http://3650000.xyz/api/360.php?cid=1"
+},
 {
 "name":"飞扬直播",
 "url":"https://chuxinya.top/f/2xLkt8/12.28%E9%A3%9E%E6%89%AC%E7%9B%B4%E6%92%AD.txt&&&https://gitee.com/winter-d/tvbox/raw/520/01.png"
@@ -13,8 +16,8 @@
 "url":"http://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt&&&http://3650000.xyz/api/360.php?cid=3"
 },
 {
-"name":"TG裤佬",
-"url":"https://upld.zone.id/uploads/q9iq9e5iq/lvse.txt&&&http://3650000.xyz/api/360.php?cid=4"
+"name":"灵鹿直播",
+"url":"http://20.205.10.127:8787/tvbox/result.txt&&&http://3650000.xyz/api/360.php?cid=4"
 },
 {
 "name":"小南",
