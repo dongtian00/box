@@ -1,0 +1,19 @@
+[
+    {
+        "name": "肥羊",
+        "list": [
+            {
+                "name": "肥羊",
+                "url": "http://38.165.20.168/32/allinone.zip",
+                "icon": "",
+                "version": "32位"
+            },
+            {
+                "name": "肥羊",
+                "url": "http://38.165.20.168/64/allinone.zip",
+                "icon": "",
+                "version": "64位"
+            }
+        ]
+    }
+]
